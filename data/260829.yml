@@ -1,0 +1,62 @@
+about:
+  description: The Rust package manager
+  license: Apache-2.0
+  homepage: https://doc.rust-lang.org/cargo
+  head: e7167a4
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-08-29T06:56:52Z
+timeline:
+  created: 2014-03-04
+  lastCommit: 2026-08-28
+  lastRelease: ?
+popularity:
+  star: 15441
+  watcher: 187
+  fork: 3032
+  release: 0
+  contributor: 1187
+  pullRequest: 1401
+  issue: 8271
+language:
+  Rust: 10528105
+  Roff: 393895
+  JavaScript: 22735
+  Shell: 14085
+  Python: 3560
+  Dockerfile: 1630
+  RenderScript: 68
+totalLine: 10964078
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 0
+    mergedPR: 69
+    openPR: 10
+    closedIssue: 14
+    openIssue: 25
+    commit: 197
+  last90d:
+    since: 2026-05-31
+    release: 0
+    mergedPR: 195
+    openPR: 30
+    closedIssue: 43
+    openIssue: 56
+    commit: 584
+  last180d:
+    since: 2026-03-02
+    release: 0
+    mergedPR: 389
+    openPR: 42
+    closedIssue: 99
+    openIssue: 118
+    commit: 1207
+  last360d:
+    since: 2025-09-03
+    release: 0
+    mergedPR: 794
+    openPR: 61
+    closedIssue: 244
+    openIssue: 231
+    commit: 2628
