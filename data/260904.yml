@@ -7,13 +7,13 @@ about:
   head: 3c0b534
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:30:03Z
+  collectedAt: 2026-09-04T21:02:07Z
 timeline:
   created: 2014-03-04
   lastCommit: 2026-09-04
   lastRelease: 
 popularity:
-  star: 15451
+  star: 15452
   watcher: 191
   fork: 3034
   release: 0
@@ -86,6 +86,84 @@ total:
   openIssue: 1570
   commit: 23184
 ---
+path: /home/runner/.x-repo/github.com/rust-lang/cargo
+collectedAt: 2026-09-04T21:02:13Z
+loc:
+  Rust:
+    code: 291823
+    comments: 11288
+    blanks: 25021
+    files: 1373
+  Svg:
+    code: 15311
+    comments: 0
+    blanks: 1139
+    files: 388
+  Toml:
+    code: 6016
+    comments: 342
+    blanks: 1241
+    files: 670
+  Json:
+    code: 3483
+    comments: 0
+    blanks: 0
+    files: 18
+  JavaScript:
+    code: 606
+    comments: 63
+    blanks: 69
+    files: 1
+  Sh:
+    code: 337
+    comments: 40
+    blanks: 44
+    files: 6
+  Python:
+    code: 87
+    comments: 13
+    blanks: 17
+    files: 2
+  Dockerfile:
+    code: 44
+    comments: 2
+    blanks: 9
+    files: 2
+  Xml:
+    code: 21
+    comments: 7
+    blanks: 0
+    files: 1
+  Bitbake:
+    code: 10
+    comments: 0
+    blanks: 2
+    files: 1
+  Css:
+    code: 6
+    comments: 3
+    blanks: 1
+    files: 1
+  Handlebars:
+    code: 5
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 23931
+    blanks: 6836
+    files: 205
+  Text:
+    code: 0
+    comments: 987
+    blanks: 348
+    files: 18
+total:
+  code: 320421
+  comments: 49845
+  blanks: 37481
+  files: 2687
 ---
 date: "2026-08-24"
 repo:
