@@ -2,90 +2,90 @@ about:
   description: "The Rust package manager"
   license: Apache-2.0
   homepage: https://doc.rust-lang.org/cargo
-  head: 77fb972
+  head: 42eee92
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-07T05:49:27Z
+  collectedAt: 2026-09-07T18:39:32Z
 timeline:
   created: 2014-03-04
-  lastCommit: 2026-09-05
+  lastCommit: 2026-09-07
   lastRelease: 
 popularity:
-  star: 15454
+  star: 15456
   watcher: 191
-  fork: 3034
+  fork: 3035
   release: 0
   contributor: 1188
-  pullRequest: 8872
-  issue: 8284
+  pullRequest: 8874
+  issue: 8286
 language:
-  Rust: 10545881
+  Rust: 10545905
   Roff: 393836
   JavaScript: 22735
   Shell: 14085
   Python: 3560
   Dockerfile: 1630
   RenderScript: 68
-totalBytes: 10981795
+totalBytes: 10981819
 recent:
   last30d:
     since: 2026-08-08
     release: 0
-    mergedPR: 53
-    openPR: 13
+    mergedPR: 54
+    openPR: 14
     closedIssue: 10
-    openIssue: 23
-    commit: 144
+    openIssue: 25
+    commit: 146
   last60d:
     since: 2026-07-09
     release: 0
-    mergedPR: 140
-    openPR: 23
+    mergedPR: 141
+    openPR: 24
     closedIssue: 32
-    openIssue: 45
-    commit: 396
+    openIssue: 47
+    commit: 398
   last90d:
     since: 2026-06-09
     release: 0
-    mergedPR: 204
-    openPR: 30
+    mergedPR: 205
+    openPR: 31
     closedIssue: 44
-    openIssue: 59
-    commit: 581
+    openIssue: 61
+    commit: 583
   last180d:
     since: 2026-03-11
     release: 0
-    mergedPR: 383
-    openPR: 47
+    mergedPR: 384
+    openPR: 48
     closedIssue: 93
-    openIssue: 119
-    commit: 1177
+    openIssue: 121
+    commit: 1179
   last360d:
     since: 2025-09-12
     release: 0
-    mergedPR: 786
-    openPR: 66
+    mergedPR: 787
+    openPR: 67
     closedIssue: 245
-    openIssue: 231
-    commit: 2564
+    openIssue: 233
+    commit: 2566
   last720d:
     since: 2024-09-17
     release: 0
-    mergedPR: 1416
-    openPR: 82
+    mergedPR: 1417
+    openPR: 83
     closedIssue: 589
-    openIssue: 456
-    commit: 4674
+    openIssue: 458
+    commit: 4676
 total:
   release: 0
-  mergedPR: 7465
-  openPR: 88
+  mergedPR: 7466
+  openPR: 89
   closedIssue: 6713
-  openIssue: 1571
-  commit: 23190
+  openIssue: 1573
+  commit: 23192
 ---
 path: /home/runner/.x-repo/github.com/rust-lang/cargo
-collectedAt: 2026-09-07T05:49:38Z
+collectedAt: 2026-09-07T18:39:46Z
 loc:
   Rust:
     code: 291863
@@ -261,7 +261,7 @@ checks:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:49:39+00:00
+  collectedAt: 2026-09-07T18:39:48+00:00
   platform:
     darwin/arm64:
       name:  null
