@@ -5,13 +5,13 @@ about:
   head: 42eee92
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-08T03:01:51Z
+  collectedAt: 2026-09-08T05:54:19Z
 timeline:
   created: 2014-03-04
   lastCommit: 2026-09-07
   lastRelease: 
 popularity:
-  star: 15457
+  star: 15458
   watcher: 191
   fork: 3036
   release: 0
@@ -85,7 +85,7 @@ total:
   commit: 23192
 ---
 path: /home/runner/.x-repo/github.com/rust-lang/cargo
-collectedAt: 2026-09-08T03:02:02Z
+collectedAt: 2026-09-08T05:54:30Z
 loc:
   Rust:
     code: 291863
