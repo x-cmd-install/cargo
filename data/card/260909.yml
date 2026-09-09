@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:58:31Z
+  collectedAt: 2026-09-09T20:29:11Z
 timeline:
   created: 2014-03-04
   lastCommit: 2026-09-08
@@ -17,11 +17,11 @@ timeline:
 popularity:
   star: 15459
   watcher: 191
-  fork: 3037
+  fork: 3036
   release: 0
   contributor: 1187
   pullRequest: 8875
-  issue: 8290
+  issue: 8292
 language:
   Rust: 10545905
   Roff: 393836
@@ -36,60 +36,60 @@ recent:
     since: 2026-08-10
     release: 0
     mergedPR: 51
-    openPR: 15
+    openPR: 14
     closedIssue: 11
-    openIssue: 28
+    openIssue: 31
     commit: 148
   last60d:
     since: 2026-07-11
     release: 0
     mergedPR: 137
-    openPR: 24
+    openPR: 23
     closedIssue: 33
-    openIssue: 46
+    openIssue: 49
     commit: 400
   last90d:
     since: 2026-06-11
     release: 0
     mergedPR: 202
-    openPR: 32
-    closedIssue: 45
-    openIssue: 63
+    openPR: 31
+    closedIssue: 44
+    openIssue: 66
     commit: 585
   last180d:
     since: 2026-03-13
     release: 0
     mergedPR: 379
-    openPR: 49
-    closedIssue: 93
-    openIssue: 123
+    openPR: 48
+    closedIssue: 92
+    openIssue: 126
     commit: 1181
   last360d:
     since: 2025-09-14
     release: 0
     mergedPR: 787
-    openPR: 68
-    closedIssue: 246
-    openIssue: 235
+    openPR: 67
+    closedIssue: 245
+    openIssue: 238
     commit: 2568
   last720d:
     since: 2024-09-19
     release: 0
     mergedPR: 1410
-    openPR: 84
-    closedIssue: 589
-    openIssue: 459
+    openPR: 83
+    closedIssue: 588
+    openIssue: 462
     commit: 4653
 total:
   release: 0
   mergedPR: 7466
-  openPR: 90
-  closedIssue: 6715
-  openIssue: 1575
+  openPR: 89
+  closedIssue: 6714
+  openIssue: 1578
   commit: 23194
 ---
 path: /home/runner/.x-repo/github.com/rust-lang/cargo
-collectedAt: 2026-09-09T05:58:55Z
+collectedAt: 2026-09-09T20:29:26Z
 loc:
   Rust:
     code: 291863
