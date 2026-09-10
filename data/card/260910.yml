@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:45:11Z
+  collectedAt: 2026-09-10T22:06:15Z
 timeline:
   created: 2014-03-04
   lastCommit: 2026-09-08
@@ -89,7 +89,7 @@ total:
   commit: 23194
 ---
 path: /home/runner/.x-repo/github.com/rust-lang/cargo
-collectedAt: 2026-09-10T21:45:22Z
+collectedAt: 2026-09-10T22:06:29Z
 loc:
   Rust:
     code: 291863
