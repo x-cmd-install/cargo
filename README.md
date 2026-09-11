@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,463 · **Forks**: 3,039 · **Open issues**: 8,293 · **Contributors**: 1,187
+- **Stars**: 15,463 · **Forks**: 3,041 · **Open issues**: 8,294 · **Contributors**: 1,188
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7466 · **Open PRs**: 89 · **Closed issues**: 6714 · **Open issues**: 1579 · **Commits**: 23194
+- **Releases**: 0 · **Merged PRs**: 7471 · **Open PRs**: 92 · **Closed issues**: 6715 · **Open issues**: 1579 · **Commits**: 23194
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 50 | 14 | 10 | 30 | 148 |
-| last60d | 2026-07-12 | 0 | 134 | 23 | 32 | 49 | 400 |
-| 90d | 2026-06-12 | 0 | 200 | 30 | 42 | 67 | 585 |
-| last180d | 2026-03-14 | 0 | 379 | 48 | 92 | 125 | 1181 |
-| 360d | 2025-09-15 | 0 | 783 | 67 | 245 | 238 | 2568 |
-| last720d | 2024-09-20 | 0 | 1409 | 83 | 586 | 461 | 4641 |
+| 30d | 2026-08-12 | 0 | 48 | 16 | 10 | 29 | 148 |
+| last60d | 2026-07-13 | 0 | 134 | 25 | 32 | 48 | 400 |
+| 90d | 2026-06-13 | 0 | 200 | 32 | 41 | 67 | 585 |
+| last180d | 2026-03-15 | 0 | 377 | 50 | 92 | 124 | 1181 |
+| 360d | 2025-09-16 | 0 | 782 | 70 | 243 | 238 | 2568 |
+| last720d | 2024-09-21 | 0 | 1414 | 86 | 587 | 460 | 4635 |
 
 ## Distribution status
 
-Reported by **108** distros on [repology.org](https://repology.org/project/cargo). **4** are ✅ on the latest upstream release, **66** are ⚠️ on an older version.
+Reported by **107** distros on [repology.org](https://repology.org/project/cargo). **4** are ✅ on the latest upstream release, **65** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -83,4 +83,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:06:37Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T06:07:45Z._
