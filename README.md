@@ -14,11 +14,11 @@ x install cargo
 
 ## Code insight
 
-Total: **317,789** lines of code across **2450** files in the top 5 languages.
+Total: **318,355** lines of code across **2450** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 291,863 | 11,288 | 25,027 | 1373 |
+| Rust | 292,429 | 11,288 | 25,039 | 1373 |
 | Svg | 15,311 | 0 | 1,139 | 388 |
 | Toml | 6,016 | 342 | 1,241 | 670 |
 | Json | 3,483 | 0 | 0 | 18 |
@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7471 · **Open PRs**: 92 · **Closed issues**: 6715 · **Open issues**: 1579 · **Commits**: 23194
+- **Releases**: 0 · **Merged PRs**: 7472 · **Open PRs**: 91 · **Closed issues**: 6715 · **Open issues**: 1579 · **Commits**: 23196
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 48 | 16 | 10 | 29 | 148 |
-| last60d | 2026-07-13 | 0 | 134 | 25 | 32 | 48 | 400 |
-| 90d | 2026-06-13 | 0 | 200 | 32 | 41 | 67 | 585 |
-| last180d | 2026-03-15 | 0 | 377 | 50 | 92 | 124 | 1181 |
-| 360d | 2025-09-16 | 0 | 782 | 70 | 243 | 238 | 2568 |
-| last720d | 2024-09-21 | 0 | 1414 | 86 | 587 | 460 | 4635 |
+| 30d | 2026-08-12 | 0 | 49 | 15 | 10 | 29 | 150 |
+| last60d | 2026-07-13 | 0 | 135 | 24 | 32 | 48 | 402 |
+| 90d | 2026-06-13 | 0 | 201 | 31 | 41 | 67 | 587 |
+| last180d | 2026-03-15 | 0 | 378 | 49 | 92 | 124 | 1183 |
+| 360d | 2025-09-16 | 0 | 783 | 69 | 243 | 238 | 2570 |
+| last720d | 2024-09-21 | 0 | 1415 | 85 | 587 | 460 | 4637 |
 
 ## Distribution status
 
@@ -83,4 +83,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T06:07:45Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T18:46:02Z._
