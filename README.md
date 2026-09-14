@@ -14,11 +14,11 @@ x install cargo
 
 ## Code insight
 
-Total: **318,392** lines of code across **2450** files in the top 5 languages.
+Total: **318,393** lines of code across **2450** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 292,466 | 11,289 | 25,044 | 1373 |
+| Rust | 292,467 | 11,289 | 25,044 | 1373 |
 | Svg | 15,311 | 0 | 1,139 | 388 |
 | Toml | 6,016 | 342 | 1,241 | 670 |
 | Json | 3,483 | 0 | 0 | 18 |
@@ -42,37 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,468 · **Forks**: 3,042 · **Open issues**: 8,295 · **Contributors**: 1,189
+- **Stars**: 15,474 · **Forks**: 3,043 · **Open issues**: 8,295 · **Contributors**: 1,189
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7473 · **Open PRs**: 89 · **Closed issues**: 6716 · **Open issues**: 1579 · **Commits**: 23201
+- **Releases**: 0 · **Merged PRs**: 7474 · **Open PRs**: 91 · **Closed issues**: 6716 · **Open issues**: 1579 · **Commits**: 23203
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 47 | 13 | 8 | 28 | 121 |
-| last60d | 2026-07-15 | 0 | 127 | 21 | 30 | 49 | 318 |
-| 90d | 2026-06-15 | 0 | 198 | 29 | 41 | 68 | 553 |
-| last180d | 2026-03-17 | 0 | 378 | 47 | 91 | 124 | 1154 |
-| 360d | 2025-09-18 | 0 | 779 | 67 | 241 | 238 | 2521 |
-| last720d | 2024-09-23 | 0 | 1412 | 83 | 586 | 460 | 4639 |
-
-## Distribution status
-
-Reported by **107** distros on [repology.org](https://repology.org/project/cargo). **4** are ✅ on the latest upstream release, **65** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.96.0` | ⚠️ outdated |
-| Debian 14 | `0.96.0` | ⚠️ outdated |
-| Debian 13 | `0.86.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.91.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.70.1` | ⚠️ outdated |
-| Fedora rawhide | `0.98.0` | ⚠️ outdated |
-| Nix unstable | `1.97.1` | incorrect |
-| Void | `1.98.0` | incorrect |
+| 30d | 2026-08-15 | 0 | 45 | 15 | 8 | 28 | 123 |
+| last60d | 2026-07-16 | 0 | 125 | 22 | 30 | 48 | 320 |
+| 90d | 2026-06-16 | 0 | 196 | 31 | 39 | 68 | 555 |
+| last180d | 2026-03-18 | 0 | 378 | 49 | 89 | 124 | 1156 |
+| 360d | 2025-09-19 | 0 | 778 | 68 | 240 | 238 | 2523 |
+| last720d | 2024-09-24 | 0 | 1406 | 85 | 584 | 460 | 4641 |
 
 ## Improve this data
 
@@ -83,4 +68,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:04:43Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:23:06Z._
