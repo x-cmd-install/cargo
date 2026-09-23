@@ -4,7 +4,7 @@
 
 The Rust package manager
 
-[![x-cmd/install — cargo Code Quality Monitoring Repo Card](https://repo.x-cmd.io/cargo.svg)](https://x-cmd.com/install/cargo)
+[![x-cmd/install — cargo Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/cargo.svg)](https://x-cmd.com/install/cargo)
 
 ## Install
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,501 · **Forks**: 3,049 · **Open issues**: 8,304 · **Contributors**: 1,189
+- **Stars**: 15,511 · **Forks**: 3,051 · **Open issues**: 8,305 · **Contributors**: 1,189
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7492 · **Open PRs**: 88 · **Closed issues**: 6721 · **Open issues**: 1583 · **Commits**: 23273
+- **Releases**: 0 · **Merged PRs**: 7492 · **Open PRs**: 91 · **Closed issues**: 6721 · **Open issues**: 1584 · **Commits**: 23273
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 52 | 12 | 11 | 28 | 153 |
-| last60d | 2026-07-24 | 0 | 123 | 17 | 31 | 48 | 362 |
-| 90d | 2026-06-24 | 0 | 198 | 27 | 43 | 67 | 604 |
-| last180d | 2026-03-26 | 0 | 374 | 46 | 88 | 127 | 1184 |
-| 360d | 2025-09-27 | 0 | 781 | 65 | 241 | 238 | 2559 |
-| last720d | 2024-10-02 | 0 | 1405 | 82 | 577 | 457 | 4623 |
+| 30d | 2026-08-24 | 0 | 50 | 15 | 10 | 29 | 153 |
+| last60d | 2026-07-25 | 0 | 123 | 20 | 28 | 49 | 362 |
+| 90d | 2026-06-25 | 0 | 198 | 30 | 42 | 67 | 604 |
+| last180d | 2026-03-27 | 0 | 374 | 49 | 87 | 128 | 1184 |
+| 360d | 2025-09-28 | 0 | 780 | 68 | 241 | 239 | 2559 |
+| last720d | 2024-10-03 | 0 | 1402 | 85 | 576 | 458 | 4620 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:18:00Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:27:18Z._
