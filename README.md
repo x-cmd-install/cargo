@@ -14,14 +14,14 @@ x install cargo
 
 ## Code insight
 
-Total: **318,886** lines of code across **2451** files in the top 5 languages.
+Total: **319,426** lines of code across **2451** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 292,958 | 11,282 | 25,098 | 1374 |
+| Rust | 293,494 | 11,282 | 25,128 | 1374 |
 | Svg | 15,311 | 0 | 1,139 | 388 |
 | Toml | 6,011 | 341 | 1,240 | 670 |
-| Json | 3,490 | 0 | 0 | 18 |
+| Json | 3,494 | 0 | 0 | 18 |
 | JavaScript | 606 | 63 | 69 | 1 |
 
 ## OpenSSF Scorecard
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,511 · **Forks**: 3,051 · **Open issues**: 8,305 · **Contributors**: 1,189
+- **Stars**: 15,512 · **Forks**: 3,055 · **Open issues**: 8,306 · **Contributors**: 1,189
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7492 · **Open PRs**: 91 · **Closed issues**: 6721 · **Open issues**: 1584 · **Commits**: 23273
+- **Releases**: 0 · **Merged PRs**: 7495 · **Open PRs**: 88 · **Closed issues**: 6721 · **Open issues**: 1585 · **Commits**: 23301
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 0 | 50 | 15 | 10 | 29 | 153 |
-| last60d | 2026-07-25 | 0 | 123 | 20 | 28 | 49 | 362 |
-| 90d | 2026-06-25 | 0 | 198 | 30 | 42 | 67 | 604 |
-| last180d | 2026-03-27 | 0 | 374 | 49 | 87 | 128 | 1184 |
-| 360d | 2025-09-28 | 0 | 780 | 68 | 241 | 239 | 2559 |
-| last720d | 2024-10-03 | 0 | 1402 | 85 | 576 | 458 | 4620 |
+| 30d | 2026-08-25 | 0 | 51 | 12 | 10 | 29 | 181 |
+| last60d | 2026-07-26 | 0 | 125 | 17 | 28 | 50 | 390 |
+| 90d | 2026-06-26 | 0 | 199 | 27 | 42 | 67 | 632 |
+| last180d | 2026-03-28 | 0 | 377 | 46 | 87 | 127 | 1212 |
+| 360d | 2025-09-29 | 0 | 779 | 65 | 238 | 240 | 2587 |
+| last720d | 2024-10-04 | 0 | 1404 | 82 | 575 | 459 | 4633 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T06:27:18Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:59:40Z._
