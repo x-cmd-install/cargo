@@ -14,11 +14,11 @@ x install cargo
 
 ## Code insight
 
-Total: **319,426** lines of code across **2451** files in the top 5 languages.
+Total: **319,646** lines of code across **2451** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 293,494 | 11,282 | 25,128 | 1374 |
+| Rust | 293,714 | 11,290 | 25,138 | 1374 |
 | Svg | 15,311 | 0 | 1,139 | 388 |
 | Toml | 6,011 | 341 | 1,240 | 670 |
 | Json | 3,494 | 0 | 0 | 18 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,512 · **Forks**: 3,055 · **Open issues**: 8,306 · **Contributors**: 1,189
+- **Stars**: 15,515 · **Forks**: 3,057 · **Open issues**: 8,310 · **Contributors**: 1,190
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7495 · **Open PRs**: 88 · **Closed issues**: 6721 · **Open issues**: 1585 · **Commits**: 23301
+- **Releases**: 0 · **Merged PRs**: 7497 · **Open PRs**: 89 · **Closed issues**: 6724 · **Open issues**: 1586 · **Commits**: 23307
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 0 | 51 | 12 | 10 | 29 | 181 |
-| last60d | 2026-07-26 | 0 | 125 | 17 | 28 | 50 | 390 |
-| 90d | 2026-06-26 | 0 | 199 | 27 | 42 | 67 | 632 |
-| last180d | 2026-03-28 | 0 | 377 | 46 | 87 | 127 | 1212 |
-| 360d | 2025-09-29 | 0 | 779 | 65 | 238 | 240 | 2587 |
-| last720d | 2024-10-04 | 0 | 1404 | 82 | 575 | 459 | 4633 |
+| 30d | 2026-08-26 | 0 | 52 | 13 | 13 | 30 | 187 |
+| last60d | 2026-07-27 | 0 | 125 | 18 | 31 | 51 | 396 |
+| 90d | 2026-06-27 | 0 | 201 | 28 | 45 | 67 | 638 |
+| last180d | 2026-03-29 | 0 | 379 | 47 | 90 | 125 | 1218 |
+| 360d | 2025-09-30 | 0 | 778 | 65 | 241 | 241 | 2593 |
+| last720d | 2024-10-05 | 0 | 1405 | 83 | 577 | 459 | 4630 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T05:59:40Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T06:00:10Z._
