@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,631 · **Forks**: 3,091 · **Open issues**: 8,346 · **Contributors**: 1,194
+- **Stars**: 15,638 · **Forks**: 3,092 · **Open issues**: 8,350 · **Contributors**: 1,194
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7563 · **Open PRs**: 95 · **Closed issues**: 6751 · **Open issues**: 1595 · **Commits**: 23578
+- **Releases**: 0 · **Merged PRs**: 7565 · **Open PRs**: 95 · **Closed issues**: 6751 · **Open issues**: 1599 · **Commits**: 23585
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 57 | 18 | 10 | 24 | 173 |
-| last60d | 2026-08-27 | 0 | 113 | 24 | 31 | 46 | 407 |
-| 90d | 2026-07-28 | 0 | 189 | 27 | 49 | 68 | 618 |
-| last180d | 2026-04-29 | 0 | 365 | 52 | 89 | 120 | 1216 |
-| 360d | 2025-10-31 | 0 | 766 | 72 | 230 | 225 | 2578 |
-| last720d | 2024-11-05 | 0 | 1405 | 88 | 561 | 459 | 4691 |
+| 30d | 2026-09-27 | 0 | 57 | 16 | 10 | 28 | 180 |
+| last60d | 2026-08-28 | 0 | 113 | 24 | 31 | 49 | 414 |
+| 90d | 2026-07-29 | 0 | 189 | 27 | 48 | 72 | 625 |
+| last180d | 2026-04-30 | 0 | 366 | 51 | 89 | 124 | 1223 |
+| 360d | 2025-11-01 | 0 | 765 | 71 | 230 | 228 | 2585 |
+| last720d | 2024-11-06 | 0 | 1407 | 88 | 559 | 463 | 4694 |
 
 ## Distribution status
 
@@ -66,7 +66,7 @@ Reported by **97** distros on [repology.org](https://repology.org/project/cargo)
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `0.99.0` | ⚠️ outdated |
-| Debian 14 | `0.96.0` | ⚠️ outdated |
+| Debian 14 | `0.99.0` | ⚠️ outdated |
 | Debian 13 | `0.86.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.91.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.70.1` | ⚠️ outdated |
@@ -83,4 +83,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:41:41Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T06:12:42Z._
