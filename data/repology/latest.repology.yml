@@ -1,14 +1,15 @@
-- repo: chimera
-  subrepo: main
-  srcname: cargo-bootstrap
-  binname: cargo-bootstrap-doc
-  visiblename: cargo-bootstrap-doc
-  version: 1.98.0
-  origversion: 1.98.0-r0
+- repo: nix_stable_25_05
+  srcname: cargo-3ds
+  visiblename: cargo
+  version: 3ds-0.1.4
+  origversion: null
   status: untrusted
-  summary: Bootstrap binaries of Rust package manager (documentation)
+  summary: Cargo command to work with Nintendo 3DS project binaries
+  maintainers:
+    - l1npengtul@l1npengtul.lol
   licenses:
-    - MIT OR Apache-2.0
+    - MIT
+    - Apache-2.0
 - repo: chimera
   subrepo: main
   srcname: cargo
@@ -64,18 +65,17 @@
   summary: Bootstrap binaries of Rust package manager
   licenses:
     - MIT OR Apache-2.0
-- repo: nix_stable_25_05
-  srcname: cargo-3ds
-  visiblename: cargo
-  version: 3ds-0.1.4
-  origversion: null
+- repo: chimera
+  subrepo: main
+  srcname: cargo-bootstrap
+  binname: cargo-bootstrap-doc
+  visiblename: cargo-bootstrap-doc
+  version: 1.98.0
+  origversion: 1.98.0-r0
   status: untrusted
-  summary: Cargo command to work with Nintendo 3DS project binaries
-  maintainers:
-    - l1npengtul@l1npengtul.lol
+  summary: Bootstrap binaries of Rust package manager (documentation)
   licenses:
-    - MIT
-    - Apache-2.0
+    - MIT OR Apache-2.0
 - repo: nix_stable_25_11
   srcname: cargo-3ds
   visiblename: cargo
@@ -115,6 +115,19 @@
     - gottox@voidlinux.org
   licenses:
     - Apache-2.0 OR MIT
+- repo: apertis_v2025
+  subrepo: v2025/development
+  srcname: rust-cargo
+  binnames:
+    - librust-cargo-dev
+  visiblename: rust-cargo
+  version: 0.66.0
+  origversion: 0.66.0-1+apertis0
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+  vulnerable: true
 - repo: aosc
   srcname: lang-rust/cargo
   binname: cargo
@@ -143,46 +156,6 @@
     - infinity0@debian.org
   categories:
     - misc
-  vulnerable: true
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: rust-cargo
-  binnames:
-    - librust-cargo-dev
-  visiblename: rust-cargo
-  version: 0.86.0
-  origversion: 0.86.0-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: cargo
-  binnames:
-    - cargo
-    - cargo-doc
-  visiblename: cargo
-  version: 0.8.0
-  origversion: 0.8.0-1
-  status: legacy
-  maintainers:
-    - pkg-rust-maintainers@lists.alioth.debian.org
-    - gus@debian.org
-    - lucab@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: crates_io
-  srcname: cargo
-  visiblename: cargo
-  version: 0.100.0
-  origversion: null
-  status: newest
-  summary: Cargo, a package manager for Rust.
   vulnerable: true
 - repo: apertis_v2023
   subrepo: v2023/development
@@ -248,19 +221,6 @@
     - lucab@debian.org
     - vasudev@copyninja.info
   vulnerable: true
-- repo: apertis_v2025
-  subrepo: v2025/development
-  srcname: rust-cargo
-  binnames:
-    - librust-cargo-dev
-  visiblename: rust-cargo
-  version: 0.66.0
-  origversion: 0.66.0-1+apertis0
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-  vulnerable: true
 - repo: apertis_v2026
   subrepo: v2026/development
   srcname: rust-cargo
@@ -287,21 +247,27 @@
     - pkg-rust-maintainers@alioth-lists.debian.net
     - infinity0@debian.org
   vulnerable: true
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: rust-cargo
-  binnames:
-    - librust-cargo-dev
-    - librust-cargo+openssl-dev
-  visiblename: rust-cargo
-  version: 0.43.1
-  origversion: 0.43.1-4
-  status: legacy
+- repo: crates_io
+  srcname: cargo
+  visiblename: cargo
+  version: 0.100.0
+  origversion: null
+  status: newest
+  summary: Cargo, a package manager for Rust.
+  vulnerable: true
+- repo: nix_stable_25_11
+  srcname: cargo
+  visiblename: cargo
+  version: 1.91.1
+  origversion: null
+  status: incorrect
+  summary: Downloads your Rust project's dependencies and builds your project
   maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-  categories:
-    - misc
+    - joerg@thalheim.io
+    - nixos@winter.cafe
+  licenses:
+    - MIT
+    - Apache-2.0
   vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
@@ -322,24 +288,36 @@
   categories:
     - rust
   vulnerable: true
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
-  srcname: cargo
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: rust-cargo
   binnames:
-    - cargo
-    - cargo-doc
-  visiblename: cargo
-  version: 0.67.1
-  origversion: 0.67.1-ok1
+    - librust-cargo-dev
+    - librust-cargo+openssl-dev
+  visiblename: rust-cargo
+  version: 0.43.1
+  origversion: 0.43.1-4
+  status: legacy
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: rust-cargo
+  binnames:
+    - librust-cargo-dev
+  visiblename: rust-cargo
+  version: 0.66.0
+  origversion: 0.66.0-1
   status: outdated
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - gus@debian.org
+    - pkg-rust-maintainers@alioth-lists.debian.net
     - infinity0@debian.org
-    - lucab@debian.org
-    - vasudev@copyninja.info
   categories:
-    - devel
+    - misc
   vulnerable: true
 - repo: debian_12
   subrepo: bookworm/main
@@ -360,14 +338,14 @@
   categories:
     - rust
   vulnerable: true
-- repo: debian_12
-  subrepo: bookworm/main
+- repo: debian_13
+  subrepo: trixie/main
   srcname: rust-cargo
   binnames:
     - librust-cargo-dev
   visiblename: rust-cargo
-  version: 0.66.0
-  origversion: 0.66.0-1
+  version: 0.86.0
+  origversion: 0.86.0-2
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
@@ -409,21 +387,6 @@
   vulnerable: true
 - repo: deepin_unstable
   subrepo: main
-  srcname: rust-cargo
-  binnames:
-    - librust-cargo-dev
-    - librust-cargo+openssl-dev
-    - librust-cargo+vendored-openssl-dev
-  visiblename: rust-cargo
-  version: 0.32.0
-  origversion: 0.32.0-2
-  status: legacy
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-  vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
   srcname: cargo
   binnames:
     - cargo
@@ -440,6 +403,21 @@
     - vasudev@copyninja.info
   categories:
     - devel
+  vulnerable: true
+- repo: deepin_unstable
+  subrepo: main
+  srcname: rust-cargo
+  binnames:
+    - librust-cargo-dev
+    - librust-cargo+openssl-dev
+    - librust-cargo+vendored-openssl-dev
+  visiblename: rust-cargo
+  version: 0.32.0
+  origversion: 0.32.0-2
+  status: legacy
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
   vulnerable: true
 - repo: deepin_23
   subrepo: main
@@ -477,21 +455,6 @@
   vulnerable: true
 - repo: deepin_25
   subrepo: main
-  srcname: rust-cargo
-  binnames:
-    - librust-cargo-dev
-  visiblename: rust-cargo
-  version: 0.66.0
-  origversion: 0.66.0-5
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-  categories:
-    - rust
-  vulnerable: true
-- repo: deepin_25
-  subrepo: main
   srcname: cargo
   binnames:
     - cargo
@@ -508,6 +471,21 @@
     - vasudev@copyninja.info
   categories:
     - devel
+  vulnerable: true
+- repo: deepin_25
+  subrepo: main
+  srcname: rust-cargo
+  binnames:
+    - librust-cargo-dev
+  visiblename: rust-cargo
+  version: 0.66.0
+  origversion: 0.66.0-5
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+  categories:
+    - rust
   vulnerable: true
 - repo: devuan_4_0
   subrepo: chimaera/main
@@ -581,6 +559,23 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_39
+  subrepo: updates
+  srcname: rust-cargo
+  binnames:
+    - rust-cargo-devel
+    - rust-cargo+default-devel
+    - rust-cargo+openssl-devel
+  visiblename: rust-cargo
+  version: 0.79.0
+  origversion: 0.79.0-6.fc39
+  status: outdated
+  summary: Package manager for Rust
+  licenses:
+    - MIT OR Apache-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_39
   subrepo: release
   srcname: rust-cargo
   binnames:
@@ -599,17 +594,17 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: fedora_39
-  subrepo: updates
+- repo: fedora_40
+  subrepo: release
   srcname: rust-cargo
   binnames:
     - rust-cargo-devel
     - rust-cargo+default-devel
     - rust-cargo+openssl-devel
   visiblename: rust-cargo
-  version: 0.79.0
-  origversion: 0.79.0-6.fc39
-  status: outdated
+  version: 0.75.1
+  origversion: 0.75.1-2.fc40
+  status: legacy
   summary: Package manager for Rust
   licenses:
     - MIT OR Apache-2.0
@@ -627,23 +622,6 @@
   version: 0.86.0
   origversion: 0.86.0-1.fc40
   status: outdated
-  summary: Package manager for Rust
-  licenses:
-    - MIT OR Apache-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_40
-  subrepo: release
-  srcname: rust-cargo
-  binnames:
-    - rust-cargo-devel
-    - rust-cargo+default-devel
-    - rust-cargo+openssl-devel
-  visiblename: rust-cargo
-  version: 0.75.1
-  origversion: 0.75.1-2.fc40
-  status: legacy
   summary: Package manager for Rust
   licenses:
     - MIT OR Apache-2.0
@@ -703,25 +681,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: openkylin_1_0
-  subrepo: yangtze/main
-  srcname: cargo
-  binnames:
-    - cargo
-    - cargo-doc
-  visiblename: cargo
-  version: 0.60.0
-  origversion: 0.60.0-ok1
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-    - gus@debian.org
-    - infinity0@debian.org
-    - lucab@debian.org
-    - vasudev@copyninja.info
-  categories:
-    - devel
-  vulnerable: true
 - repo: fedora_42
   subrepo: release
   srcname: rust-cargo
@@ -776,25 +735,6 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_44
-  subrepo: release
-  srcname: rust-cargo
-  binnames:
-    - rust-cargo-devel
-    - rust-cargo+default-devel
-    - rust-cargo+http-transport-curl-devel
-    - rust-cargo+http-transport-reqwest-devel
-    - rust-cargo+openssl-devel
-  visiblename: rust-cargo
-  version: 0.93.0
-  origversion: 0.93.0-1.fc44
-  status: legacy
-  summary: Package manager for Rust
-  licenses:
-    - MIT OR Apache-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_44
   subrepo: updates
   srcname: rust-cargo
   binnames:
@@ -813,6 +753,25 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: fedora_44
+  subrepo: release
+  srcname: rust-cargo
+  binnames:
+    - rust-cargo-devel
+    - rust-cargo+default-devel
+    - rust-cargo+http-transport-curl-devel
+    - rust-cargo+http-transport-reqwest-devel
+    - rust-cargo+openssl-devel
+  visiblename: rust-cargo
+  version: 0.93.0
+  origversion: 0.93.0-1.fc44
+  status: legacy
+  summary: Package manager for Rust
+  licenses:
+    - MIT OR Apache-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: fedora_rawhide
   subrepo: development
   srcname: rust-cargo
@@ -823,9 +782,9 @@
     - rust-cargo+http-transport-reqwest-devel
     - rust-cargo+openssl-devel
   visiblename: rust-cargo
-  version: 0.99.0
-  origversion: 0.99.0-1.fc46
-  status: outdated
+  version: 0.100.0
+  origversion: 0.100.0-1.fc46
+  status: newest
   summary: Package manager for Rust
   licenses:
     - MIT OR Apache-2.0
@@ -838,8 +797,8 @@
   binnames:
     - librust-cargo-dev
   visiblename: rust-cargo
-  version: 0.96.0
-  origversion: 0.96.0-2
+  version: 0.99.0
+  origversion: 0.99.0-1
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
@@ -953,20 +912,6 @@
     - MIT
     - Apache-2.0
   vulnerable: true
-- repo: nix_stable_25_11
-  srcname: cargo
-  visiblename: cargo
-  version: 1.91.1
-  origversion: null
-  status: incorrect
-  summary: Downloads your Rust project's dependencies and builds your project
-  maintainers:
-    - joerg@thalheim.io
-    - nixos@winter.cafe
-  licenses:
-    - MIT
-    - Apache-2.0
-  vulnerable: true
 - repo: nix_stable_26_05
   srcname: cargo
   visiblename: cargo
@@ -982,8 +927,46 @@
     - MIT
     - Apache-2.0
   vulnerable: true
+- repo: openkylin_1_0
+  subrepo: yangtze/main
+  srcname: cargo
+  binnames:
+    - cargo
+    - cargo-doc
+  visiblename: cargo
+  version: 0.60.0
+  origversion: 0.60.0-ok1
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+    - gus@debian.org
+    - infinity0@debian.org
+    - lucab@debian.org
+    - vasudev@copyninja.info
+  categories:
+    - devel
+  vulnerable: true
 - repo: openkylin_2_0
   subrepo: nile/main
+  srcname: cargo
+  binnames:
+    - cargo
+    - cargo-doc
+  visiblename: cargo
+  version: 0.67.1
+  origversion: 0.67.1-ok1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - gus@debian.org
+    - infinity0@debian.org
+    - lucab@debian.org
+    - vasudev@copyninja.info
+  categories:
+    - devel
+  vulnerable: true
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
   srcname: cargo
   binnames:
     - cargo
@@ -1106,25 +1089,6 @@
   vulnerable: true
 - repo: pureos_amber
   subrepo: amber/main
-  srcname: cargo
-  binnames:
-    - cargo
-    - cargo-doc
-  visiblename: cargo
-  version: 0.43.1
-  origversion: 0.43.1-3~deb10u1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - gus@debian.org
-    - infinity0@debian.org
-    - lucab@debian.org
-    - vasudev@copyninja.info
-  categories:
-    - devel
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
   srcname: rust-cargo
   binnames:
     - librust-cargo+openssl-dev
@@ -1140,15 +1104,15 @@
   categories:
     - rust
   vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+- repo: pureos_amber
+  subrepo: amber/main
   srcname: cargo
   binnames:
     - cargo
     - cargo-doc
   visiblename: cargo
-  version: 0.47.0
-  origversion: 0.47.0-3
+  version: 0.43.1
+  origversion: 0.43.1-3~deb10u1
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
@@ -1174,6 +1138,25 @@
     - infinity0@debian.org
   categories:
     - rust
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: cargo
+  binnames:
+    - cargo
+    - cargo-doc
+  visiblename: cargo
+  version: 0.47.0
+  origversion: 0.47.0-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - gus@debian.org
+    - infinity0@debian.org
+    - lucab@debian.org
+    - vasudev@copyninja.info
+  categories:
+    - devel
   vulnerable: true
 - repo: pureos_landing
   subrepo: landing/main
@@ -1226,6 +1209,26 @@
   vulnerable: true
 - repo: raspbian_stable
   subrepo: main
+  srcname: cargo
+  binnames:
+    - cargo
+    - cargo-doc
+  visiblename: cargo
+  version: 0.70.1
+  origversion: 0.70.1+ds1-2
+  status: legacy
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - debian@fabian.gruenbichler.email
+    - gus@debian.org
+    - infinity0@debian.org
+    - lucab@debian.org
+    - vasudev@copyninja.info
+  categories:
+    - rust
+  vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
   srcname: rust-cargo
   binnames:
     - librust-cargo-dev
@@ -1239,7 +1242,7 @@
   categories:
     - misc
   vulnerable: true
-- repo: raspbian_stable
+- repo: raspbian_testing
   subrepo: main
   srcname: cargo
   binnames:
@@ -1275,26 +1278,6 @@
   categories:
     - misc
   vulnerable: true
-- repo: raspbian_testing
-  subrepo: main
-  srcname: cargo
-  binnames:
-    - cargo
-    - cargo-doc
-  visiblename: cargo
-  version: 0.70.1
-  origversion: 0.70.1+ds1-2
-  status: legacy
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - debian@fabian.gruenbichler.email
-    - gus@debian.org
-    - infinity0@debian.org
-    - lucab@debian.org
-    - vasudev@copyninja.info
-  categories:
-    - rust
-  vulnerable: true
 - repo: t2
   srcname: cargo
   visiblename: cargo
@@ -1329,6 +1312,23 @@
     - universe/devel
   vulnerable: true
 - repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: cargo
+  binnames:
+    - cargo
+    - cargo-doc
+  visiblename: cargo
+  version: 0.8.0
+  origversion: 0.8.0-1
+  status: legacy
+  maintainers:
+    - pkg-rust-maintainers@lists.alioth.debian.org
+    - gus@debian.org
+    - lucab@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_16_04
   subrepo: xenial-updates/universe
   srcname: cargo
   binnames:
@@ -1337,6 +1337,25 @@
   visiblename: cargo
   version: 0.47.0
   origversion: 0.47.0-1~exp1ubuntu1~16.04.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - gus@debian.org
+    - infinity0@debian.org
+    - lucab@debian.org
+    - vasudev@copyninja.info
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic-updates/universe
+  srcname: cargo
+  binnames:
+    - cargo
+    - cargo-doc
+  visiblename: cargo
+  version: 0.66.0+ds0ubuntu0.libgit2
+  origversion: 0.66.0+ds0ubuntu0.libgit2-0ubuntu0.18.04
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -1366,16 +1385,16 @@
   categories:
     - universe/misc
   vulnerable: true
-- repo: ubuntu_18_04
-  subrepo: bionic-updates/universe
+- repo: ubuntu_20_04
+  subrepo: focal/universe
   srcname: cargo
   binnames:
     - cargo
     - cargo-doc
   visiblename: cargo
-  version: 0.66.0+ds0ubuntu0.libgit2
-  origversion: 0.66.0+ds0ubuntu0.libgit2-0ubuntu0.18.04
-  status: outdated
+  version: 0.42.0
+  origversion: 0.42.0-0ubuntu1
+  status: legacy
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
     - gus@debian.org
@@ -1395,25 +1414,6 @@
   version: 0.67.1+ds0ubuntu0.libgit2
   origversion: 0.67.1+ds0ubuntu0.libgit2-0ubuntu0.20.04.2
   status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - gus@debian.org
-    - infinity0@debian.org
-    - lucab@debian.org
-    - vasudev@copyninja.info
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: cargo
-  binnames:
-    - cargo
-    - cargo-doc
-  visiblename: cargo
-  version: 0.42.0
-  origversion: 0.42.0-0ubuntu1
-  status: legacy
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
     - gus@debian.org
