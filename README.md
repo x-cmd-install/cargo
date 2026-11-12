@@ -14,14 +14,14 @@ x install cargo
 
 ## Code insight
 
-Total: **326,528** lines of code across **2464** files in the top 5 languages.
+Total: **327,996** lines of code across **2466** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 299,542 | 11,263 | 25,587 | 1384 |
+| Rust | 299,653 | 11,263 | 25,594 | 1384 |
 | Svg | 15,331 | 0 | 1,139 | 388 |
-| Toml | 6,820 | 354 | 1,461 | 672 |
-| Json | 3,673 | 0 | 0 | 19 |
+| Toml | 6,826 | 354 | 1,463 | 672 |
+| Json | 5,024 | 0 | 0 | 21 |
 | JavaScript | 650 | 68 | 70 | 1 |
 
 ## OpenSSF Scorecard
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,706 · **Forks**: 3,125 · **Open issues**: 8,368 · **Contributors**: 1,202
+- **Stars**: 15,710 · **Forks**: 3,126 · **Open issues**: 8,368 · **Contributors**: 1,203
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7600 · **Open PRs**: 100 · **Closed issues**: 6761 · **Open issues**: 1607 · **Commits**: 23716
+- **Releases**: 0 · **Merged PRs**: 7606 · **Open PRs**: 97 · **Closed issues**: 6762 · **Open issues**: 1606 · **Commits**: 23735
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 60 | 15 | 14 | 27 | 226 |
-| last60d | 2026-09-12 | 0 | 121 | 28 | 29 | 47 | 454 |
-| 90d | 2026-08-13 | 0 | 174 | 30 | 46 | 68 | 651 |
-| last180d | 2026-05-15 | 0 | 376 | 54 | 93 | 122 | 1255 |
-| 360d | 2025-11-16 | 0 | 759 | 76 | 217 | 231 | 2597 |
-| last720d | 2024-11-21 | 0 | 1412 | 93 | 557 | 463 | 4700 |
+| 30d | 2026-10-13 | 0 | 66 | 13 | 14 | 26 | 245 |
+| last60d | 2026-09-13 | 0 | 125 | 25 | 29 | 46 | 473 |
+| 90d | 2026-08-14 | 0 | 179 | 28 | 44 | 67 | 670 |
+| last180d | 2026-05-16 | 0 | 381 | 52 | 93 | 122 | 1274 |
+| 360d | 2025-11-17 | 0 | 763 | 73 | 216 | 229 | 2616 |
+| last720d | 2024-11-22 | 0 | 1415 | 90 | 556 | 462 | 4710 |
 
 ## Distribution status
 
@@ -71,7 +71,7 @@ Reported by **99** distros on [repology.org](https://repology.org/project/cargo)
 | Ubuntu 26.04 LTS | `0.91.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.70.1` | ⚠️ outdated |
 | Fedora rawhide | `0.100.0` | ✅ latest |
-| Nix unstable | `1.99.0` | incorrect |
+| Nix unstable | `1.99.1` | incorrect |
 | Void | `1.99.0` | incorrect |
 
 ## Improve this data
@@ -83,4 +83,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:49:29Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:47:16Z._
