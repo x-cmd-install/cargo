@@ -14,14 +14,14 @@ x install cargo
 
 ## Code insight
 
-Total: **328,953** lines of code across **2467** files in the top 5 languages.
+Total: **329,157** lines of code across **2466** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 300,168 | 11,251 | 25,657 | 1385 |
+| Rust | 300,365 | 11,257 | 25,675 | 1384 |
 | Svg | 15,333 | 0 | 1,139 | 388 |
-| Toml | 6,828 | 354 | 1,464 | 672 |
-| Json | 5,462 | 0 | 0 | 21 |
+| Toml | 6,827 | 354 | 1,464 | 672 |
+| Json | 5,470 | 0 | 0 | 21 |
 | JavaScript | 650 | 68 | 70 | 1 |
 
 ## OpenSSF Scorecard
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,728 · **Forks**: 3,210 · **Open issues**: 8,377 · **Contributors**: 1,203
+- **Stars**: 15,740 · **Forks**: 3,239 · **Open issues**: 8,382 · **Contributors**: 1,207
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7629 · **Open PRs**: 100 · **Closed issues**: 6770 · **Open issues**: 1607 · **Commits**: 23821
+- **Releases**: 0 · **Merged PRs**: 7641 · **Open PRs**: 96 · **Closed issues**: 6773 · **Open issues**: 1609 · **Commits**: 23858
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 77 | 17 | 15 | 24 | 251 |
-| last60d | 2026-09-18 | 0 | 138 | 27 | 32 | 46 | 499 |
-| 90d | 2026-08-19 | 0 | 195 | 31 | 49 | 67 | 720 |
-| last180d | 2026-05-21 | 0 | 394 | 53 | 96 | 123 | 1306 |
-| 360d | 2025-11-22 | 0 | 776 | 76 | 221 | 229 | 2632 |
-| last720d | 2024-11-27 | 0 | 1431 | 93 | 561 | 462 | 4757 |
+| 30d | 2026-10-20 | 0 | 83 | 15 | 17 | 27 | 288 |
+| last60d | 2026-09-20 | 0 | 145 | 25 | 34 | 49 | 536 |
+| 90d | 2026-08-21 | 0 | 201 | 29 | 51 | 68 | 757 |
+| last180d | 2026-05-23 | 0 | 403 | 51 | 98 | 123 | 1344 |
+| 360d | 2025-11-24 | 0 | 787 | 72 | 221 | 232 | 2670 |
+| last720d | 2024-11-29 | 0 | 1441 | 88 | 561 | 464 | 4790 |
 
 ## Distribution status
 
@@ -83,4 +83,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:09:32Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:14:22Z._
