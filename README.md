@@ -42,30 +42,30 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,766 · **Forks**: 3,246 · **Open issues**: 8,385 · **Contributors**: 1,207
+- **Stars**: 15,775 · **Forks**: 3,248 · **Open issues**: 8,385 · **Contributors**: 1,208
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7652 · **Open PRs**: 96 · **Closed issues**: 6773 · **Open issues**: 1612 · **Commits**: 23920
+- **Releases**: 0 · **Merged PRs**: 7653 · **Open PRs**: 98 · **Closed issues**: 6773 · **Open issues**: 1612 · **Commits**: 23924
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 90 | 15 | 16 | 29 | 349 |
-| last60d | 2026-09-22 | 0 | 150 | 25 | 31 | 51 | 598 |
-| 90d | 2026-08-23 | 0 | 209 | 29 | 51 | 71 | 819 |
-| last180d | 2026-05-25 | 0 | 409 | 51 | 97 | 126 | 1406 |
-| 360d | 2025-11-26 | 0 | 792 | 72 | 218 | 235 | 2732 |
-| last720d | 2024-12-01 | 0 | 1447 | 88 | 561 | 466 | 4842 |
+| 30d | 2026-10-23 | 0 | 84 | 16 | 16 | 26 | 309 |
+| last60d | 2026-09-23 | 0 | 151 | 27 | 31 | 51 | 536 |
+| 90d | 2026-08-24 | 0 | 208 | 31 | 50 | 71 | 774 |
+| last180d | 2026-05-26 | 0 | 410 | 52 | 97 | 126 | 1370 |
+| 360d | 2025-11-27 | 0 | 792 | 74 | 218 | 234 | 2688 |
+| last720d | 2024-12-02 | 0 | 1446 | 90 | 558 | 465 | 4840 |
 
 ## Distribution status
 
-Reported by **100** distros on [repology.org](https://repology.org/project/cargo). **4** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
+Reported by **99** distros on [repology.org](https://repology.org/project/cargo). **4** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `0.99.0` | 🪦 legacy |
+| Debian unstable | `0.100.0` | ⚠️ outdated |
 | Debian 14 | `0.99.0` | ⚠️ outdated |
 | Debian 13 | `0.86.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.91.0` | ⚠️ outdated |
@@ -83,4 +83,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:03:14Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T07:33:57Z._
