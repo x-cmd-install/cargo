@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,775 · **Forks**: 3,248 · **Open issues**: 8,385 · **Contributors**: 1,208
+- **Stars**: 15,788 · **Forks**: 3,254 · **Open issues**: 8,386 · **Contributors**: 1,208
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7653 · **Open PRs**: 98 · **Closed issues**: 6773 · **Open issues**: 1612 · **Commits**: 23924
+- **Releases**: 0 · **Merged PRs**: 7653 · **Open PRs**: 100 · **Closed issues**: 6773 · **Open issues**: 1613 · **Commits**: 23924
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 84 | 16 | 16 | 26 | 309 |
-| last60d | 2026-09-23 | 0 | 151 | 27 | 31 | 51 | 536 |
-| 90d | 2026-08-24 | 0 | 208 | 31 | 50 | 71 | 774 |
-| last180d | 2026-05-26 | 0 | 410 | 52 | 97 | 126 | 1370 |
-| 360d | 2025-11-27 | 0 | 792 | 74 | 218 | 234 | 2688 |
-| last720d | 2024-12-02 | 0 | 1446 | 90 | 558 | 465 | 4840 |
+| 30d | 2026-10-24 | 0 | 82 | 18 | 16 | 26 | 309 |
+| last60d | 2026-09-24 | 0 | 147 | 28 | 29 | 50 | 536 |
+| 90d | 2026-08-25 | 0 | 206 | 33 | 50 | 71 | 774 |
+| last180d | 2026-05-27 | 0 | 407 | 54 | 97 | 127 | 1370 |
+| 360d | 2025-11-28 | 0 | 791 | 76 | 217 | 233 | 2688 |
+| last720d | 2024-12-03 | 0 | 1444 | 92 | 557 | 466 | 4833 |
 
 ## Distribution status
 
@@ -83,4 +83,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T07:33:57Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T08:58:53Z._
