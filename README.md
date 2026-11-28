@@ -14,11 +14,11 @@ x install cargo
 
 ## Code insight
 
-Total: **329,563** lines of code across **2476** files in the top 5 languages.
+Total: **329,607** lines of code across **2476** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 300,735 | 11,264 | 25,721 | 1392 |
+| Rust | 300,779 | 11,270 | 25,731 | 1392 |
 | Svg | 15,395 | 0 | 1,145 | 390 |
 | Toml | 6,829 | 354 | 1,464 | 672 |
 | Json | 5,442 | 0 | 0 | 21 |
@@ -42,22 +42,37 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 15,808 · **Forks**: 3,266 · **Open issues**: 8,397 · **Contributors**: 1,209
+- **Stars**: 15,808 · **Forks**: 3,285 · **Open issues**: 8,399 · **Contributors**: 1,209
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 7663 · **Open PRs**: 104 · **Closed issues**: 6775 · **Open issues**: 1622 · **Commits**: 23977
+- **Releases**: 0 · **Merged PRs**: 7666 · **Open PRs**: 105 · **Closed issues**: 6776 · **Open issues**: 1623 · **Commits**: 23994
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 90 | 18 | 16 | 28 | 362 |
-| last60d | 2026-09-28 | 0 | 150 | 30 | 28 | 56 | 589 |
-| 90d | 2026-08-29 | 0 | 210 | 37 | 49 | 78 | 827 |
-| last180d | 2026-05-31 | 0 | 410 | 57 | 97 | 131 | 1423 |
-| 360d | 2025-12-02 | 0 | 791 | 80 | 217 | 241 | 2741 |
-| last720d | 2024-12-07 | 0 | 1446 | 96 | 552 | 475 | 4835 |
+| 30d | 2026-10-29 | 0 | 89 | 19 | 15 | 28 | 379 |
+| last60d | 2026-09-29 | 0 | 149 | 30 | 29 | 57 | 606 |
+| 90d | 2026-08-30 | 0 | 210 | 38 | 50 | 79 | 844 |
+| last180d | 2026-06-01 | 0 | 407 | 58 | 97 | 131 | 1440 |
+| 360d | 2025-12-03 | 0 | 790 | 81 | 217 | 242 | 2758 |
+| last720d | 2024-12-08 | 0 | 1449 | 97 | 553 | 476 | 4852 |
+
+## Distribution status
+
+Reported by **97** distros on [repology.org](https://repology.org/project/cargo). **4** are ✅ on the latest upstream release, **60** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.100.0` | ⚠️ outdated |
+| Debian 14 | `0.99.0` | ⚠️ outdated |
+| Debian 13 | `0.86.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.91.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.70.1` | ⚠️ outdated |
+| Fedora rawhide | `0.100.0` | ⚠️ outdated |
+| Nix unstable | `1.99.1` | incorrect |
+| Void | `1.99.0` | incorrect |
 
 ## Improve this data
 
@@ -68,4 +83,4 @@ Install metadata for cargo lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:33:10Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T09:06:10Z._
